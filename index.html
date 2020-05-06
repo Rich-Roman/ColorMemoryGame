@@ -1,0 +1,21 @@
+<!DOCTYPE html><html lang="en"><head>
+    <script src="p5.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="ml5.min.js"></script>
+    <script src="handtrack.min.js"> </script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+        <div class="mb10">
+        <button onclick="toggleVideo()" id="trackbutton" type="button">Start Hand Tracking</button>
+        <div id="updatenote"> loading model...</div>
+    </div>
+    <video class="videobox canvasbox" autoplay="autoplay" id="myvideo"></video>
+
+    <canvas id="canvas" class="border canvasbox"></canvas>
+    <script src="sketch.js"></script>
+  
+
+</body></html>
